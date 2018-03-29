@@ -19,3 +19,17 @@ Also to help with performances, install HAXM from the Android SDK Manager.
 
  run react-native run-android.
 
+# Troubleshooting 
+ 
+ Q : 
+ after run react-native run-android you see this error => 
+
+* What went wrong:
+Execution failed for task ':app:processDebugGoogleServices'.
+> Failed to delete: C:\Jini\isracardProj\android\app\build\generated\res\google-services\debug 
+
+A: 
+run=> cd android
+      gradlew clean
+      cd..
+      react-native run-android
