@@ -3,6 +3,9 @@
 IsracardProj represnt a login Component.
 the user can log in with Facebook or Google account and the main screen represent user name and logo.
 
+  <img height="500"  src="http://13.59.239.143:8080/file/SH1.png"/>
+ <img height="500"  src="http://13.59.239.143:8080/file/SH2.png"/>
+
 
 # Installation
  run npm-install in the isracard project to install the node moudles folder and this additional packages - 
