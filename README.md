@@ -4,7 +4,7 @@ IsracardProj represnt a login Component.
 the user can log in with Facebook or Google account and the main screen represent user name and logo.
 
 
-#Installation
+# Installation
 
 1. Run android emulator.
 2. run npm-install in the isracard project to install the node moudles folder and this additional packages - 
