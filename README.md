@@ -29,7 +29,7 @@ Execution failed for task ':app:processDebugGoogleServices'.
 > Failed to delete: C:\Jini\isracardProj\android\app\build\generated\res\google-services\debug 
 
 A: 
-run=> cd android
-      gradlew clean
-      cd..
+run=> cd android && 
+      gradlew clean &&
+      cd.. && 
       react-native run-android
