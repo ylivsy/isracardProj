@@ -16,7 +16,7 @@ export default createRootNavigator = () => {
                     headerTitle:
                         <View>
                             <Image
-                                style={{width: width/1.5, height: height/11,marginLeft:width/7}}
+                                style={{width: width/2.2, height: height/17,marginLeft:width/3.7}}
                                 source={require('../assets/isracard.png')}
                             />
                         </View>
@@ -28,7 +28,7 @@ export default createRootNavigator = () => {
                     headerTitle:
                         <View>
                             <Image
-                                style={{width: width/1.5, height: height/11}}
+                                style={{width: width/2.2, height: height/17,marginLeft:width/8}}
                                 source={require('../assets/isracard.png')}
                             />
                         </View>

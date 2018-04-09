@@ -2,6 +2,9 @@ package com.isracardproj;
 
 import android.app.Application;
 
+//force LTR
+import com.facebook.react.modules.i18nmanager.I18nUtil;
+
 import com.facebook.react.ReactApplication;
 import co.apptailor.googlesignin.RNGoogleSigninPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -47,6 +50,12 @@ public class MainApplication extends Application implements ReactApplication {
   @Override
   public void onCreate() {
     super.onCreate();
+
+    // FORCE LTR
+       I18nUtil sharedI18nUtilInstance = I18nUtil.getInstance();
+       sharedI18nUtilInstance.allowRTL(getApplicationContext(), false);
+
+
     SoLoader.init(this, /* native exopackage */ false);
   }
 }
